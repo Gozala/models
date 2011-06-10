@@ -7,9 +7,10 @@
 
 "use strict";
 
-var EventEmitter = require("./events").EventEmitter;
+var Extendable = require('https!raw.github.com/Gozala/extendables/v0.2.0/extendables.js').Extendable;
+var EventEmitter = require('https!raw.github.com/Gozala/events/v0.2.0/events.js').EventEmitter;
 
-exports.version = "0.0.1";
+exports.version = "0.1.0";
 
 var isArray = Array.isArray;
 function isFunction(value) { return typeof value === "function"; }
@@ -221,20 +222,5 @@ exports.Model = EventEmitter.extend({
     return JSON.parse(JSON.stringify(this.attributes));
   }
 });
-
-/**
-var Model = require("mvc/model").Model;
-var Sidebar = Model.extend({
-  promptColor: function(value) {
-    this.set({ color: value });
-  }
-});
-
-var sidebar = Sidebar({ color: 'white' });
-sidebar.on('change:color', function(event) {
-  console.log('color is no longer ' + event.previous + ' it is ' + event.value);
-});
-sidebar.promptColor('red');
-*/
 
 });

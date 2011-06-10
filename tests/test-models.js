@@ -7,7 +7,7 @@
 
 "use strict";
 
-var GModel = require("models").Model;
+var GModel = require("../models").Model;
 var lastRequest;
 var toArray = Function.prototype.call.bind(Array.prototype.slice);
 
