@@ -19,8 +19,7 @@
     "test": "./tests"
   },
   "dependencies": {
-    "events": ">= 0.1.0",
-    "extendables": "0.1.2"
+    "graphquire": ">=0.6.0"
   },
   "devDependencies": {
     "test": ">=0.0.10"
@@ -31,7 +30,8 @@
     "teleport": ">=0.2.0"
   },
   "scripts": {
-    "test": "node tests/test-models.js"
+    "test": "node tests/test-models.js",
+    "install": "graphquire --clean --write"
   },
   "licenses": [
     {
