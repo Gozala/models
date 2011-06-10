@@ -1,7 +1,7 @@
 {
   "name": "models",
   "id": "models",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "M form MVC",
   "keywords": [ "mvc", "model", "commonjs" ],
   "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
