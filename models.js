@@ -7,8 +7,8 @@
 
 "use strict";
 
-var Extendable = require('https!raw.github.com/Gozala/extendables/v0.2.0/extendables.js').Extendable;
-var EventEmitter = require('https!raw.github.com/Gozala/events/v0.2.0/events.js').EventEmitter;
+var Extendable = require('https://raw.github.com/Gozala/extendables/v0.2.0/extendables.js').Extendable;
+var EventEmitter = require('https://raw.github.com/Gozala/events/master/events.js').EventEmitter;
 
 exports.version = "0.1.0";
 
