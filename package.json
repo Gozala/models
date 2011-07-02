@@ -1,7 +1,7 @@
 {
   "name": "models",
   "id": "models",
-  "version": "0.1.0",
+  "version": "0.2.0pre",
   "description": "M form MVC",
   "keywords": [ "mvc", "model", "commonjs" ],
   "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
@@ -14,7 +14,7 @@
     "web": "http://github.com/Gozala/models/issues/"
   },
   "dependencies": {
-    "graphquire": ">=0.6.0"
+    "graphquire": ">=0.7.0"
   },
   "devDependencies": {
     "test": ">=0.0.10"
@@ -25,7 +25,7 @@
   },
   "scripts": {
     "test": "node tests/test-models.js",
-    "install": "graphquire --clean --write"
+    "install": "graphquire -c -w && graphquire -c -w -e --cache-path ./"
   },
   "licenses": [{
     "type" : "MIT",
