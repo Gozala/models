@@ -14,7 +14,7 @@
     "web": "http://github.com/Gozala/models/issues/"
   },
   "dependencies": {
-    "graphquire": ">=0.7.0"
+    "graphquire": ">=0.8.0"
   },
   "devDependencies": {
     "test": ">=0.0.10"
@@ -25,7 +25,7 @@
   },
   "scripts": {
     "test": "node tests/test-models.js",
-    "install": "graphquire -c -w && graphquire -c -w -e --cache-path ./"
+    "install": "graphquire -c -w && graphquire -c -w --cache-path ./"
   },
   "licenses": [{
     "type" : "MIT",
